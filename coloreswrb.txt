@@ -1,0 +1,4 @@
+colores zocalos #F6F6F6
+		#F2F2F2
+
+colers fondo para letras blancas #1D1D1B 

@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bowlby+One+SC&family=Passion+One:wght@400;700;900&display=swap');
 
  * {
     margin: 0;
@@ -38,6 +38,34 @@ p {
 .section-m1{
     margin: 40px 0;
 }
+button.normal {
+    font-size:14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    
+    color:#f0efec;
+    background-color:rgb(37, 36, 36);
+    border-radius: 4px;
+    cursor: pointer;
+    border:none;
+    outline:none;
+    transition: .2s;  
+}
+button.white {
+    font-size:14px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color:#f0efec;
+    background-color:transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    border:1px solid #F0eFec;
+    outline:none;
+    transition: .2s;  
+}
+button.normal:hover{
+    background-color:#D73853;
+}
 body{
     width: 100%;
 }
@@ -46,7 +74,7 @@ body{
     align-items: center;
     justify-content:space-between;
     padding: 10px 50px;
-    background-color: #FFFFFF;
+    
     box-shadow: 0 5px 15px rgba(0, 0, 0, .08);
     z-index: 999;
     position:sticky;
@@ -88,6 +116,15 @@ body{
     bottom: -4px;
     left: 20px;
 }
+#mobile{
+    display: none;
+    align-items: center;
+}
+#close{
+    display: none;
+}
+
+/* HOME */
 #hero{
     background-image: url("E-commerce/portada4.jpg.png");
     width: 100%;
@@ -105,15 +142,15 @@ body{
     text-shadow: 1px 1px 5px rgba(0, 0, 0 , 0.8);
 }
 #hero h1{
-    color: #FFFFFF;
+    color: #f0efec;
     text-shadow: 1px 1px 5px rgba(0, 0, 0 , 0.8);
-    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Bowlby One SC', cursive;
 }
 #hero h2 {
     color: #2ECC71;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
-    font-family: 'Alfa Slab One', cursive;
-    letter-spacing: 4px;
+    font-family: 'Bowlby One SC', cursive;
+    letter-spacing: 5px;
 }
 #hero p{
     color: #FFFFFF;
@@ -265,3 +302,350 @@ body{
     right:5px;
 
 }
+#banner{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    background-image: url("E-commerce/portada2.png");
+    width: 100%;
+    height:35vh;
+    background-size:cover;
+    background-position: center;
+}
+#banner h4{
+    color: rgb(37, 36, 36);
+    font-size:30px;
+    padding: 0 10px;
+    text-shadow:  1px 3px rgba(255, 255, 255 , 0.4);
+}
+#banner h2{
+    color: rgb(37, 36, 36);
+    font-size:45px;
+    font-family: 'Alfa Slab One', cursive;
+    padding: 10px 10px;  
+    text-shadow:  1px 2px rgba(255, 255,255 , 0.4);
+}
+#banner h2 span{
+    color: #D73853;
+    font-size: 55px;
+}
+#sm-banner{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-start;
+    text-align: center;
+    background-image: url("E-commerce/portada5.jpg");
+    min-width: 47%;
+    height:40vh;
+    background-size: cover;
+    background-position: center;
+    padding:30px;
+}
+#sm-banner .banner-box2{
+    background-image: url("E-commerce/-hacer-deporte.png");
+    background-size: cover;
+}
+#sm-banner h4{
+  color: rgb(25, 24, 24);
+  font-size: 20px;
+  font-weight: 500;  
+}
+#sm-banner h2{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 800;  
+  }
+  #sm-banner  span{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500; 
+    padding-bottom: 15px;
+  }
+  #sm-banner .banner-box:hover button{
+    background-color:#11ba68;
+    border: 2px solid #11ba68;
+    transition: .3s;
+  }
+  #banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    padding: 0 80px;
+  }
+  #banner3 .banner-box{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-start;
+    text-align: center;
+    background-image: url("E-commerce/mujer\ corriendo.jpg");
+    min-width: 30%;
+    height:25vh;
+    background-size: cover;
+    background-position: center;  
+}
+#banner3 .banner-box2{
+    background-image: url("E-commerce/portada3.png");
+
+}
+#banner3 .banner-box3{
+    background-image: url("E-commerce/unnamed-25-1024x683.jpg");
+}
+#banner3 h2{
+    color:#d871df;
+    font-weight: 900;
+    font-size: 30px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #e9e5e5;
+}
+#banner3 h3{
+    color: #122895;
+    font-weight: 800;
+    text-shadow: 0 1px 0px rgba(255,255,255,0.7)
+}
+#news-letter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items:center;
+    background-color: #122895;
+    background-position: center;    
+}
+#news-letter h3{
+    font-size: 25px;
+    color: #b1b9c3 ;
+    font-family:'Passion-One';
+    font-weight:700;
+}
+#news-letter p {
+    font-size:16px;
+    color: #f2f4f6;
+    font-weight: 500;
+}
+#news-letter span{
+    color:#fab047;
+}
+#news-letter .form{
+    display:flex;
+    width: 40%;
+
+}
+#news-letter input{
+    height:3.125rem;
+    padding: 0 1.25rem ;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#news-letter button {
+   background-color: #11ba68; 
+   color: #fff;
+   white-space: nowrap;
+   border: 1px solid #11ba68;
+   border-top-left-radius: 0;
+   border-bottom-left-radius: 0;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    min-width: 20%;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+footer .logo{
+    margin-bottom: 20px;
+}
+footer h3{
+    font-size: 18px;
+    padding-bottom: 20px;  
+}
+footer p{
+    font-size: 15px;
+    margin: 0 0 8px 0;
+    color: #000; 
+}
+footer a{
+    font-size: 12px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #222; 
+}
+footer .follow{
+    margin-top: 30px; 
+}
+footer .follow i{
+    color:#465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+footer .instalar .row img{
+    border: 1px solid #3ea8f3;
+    border-radius: 6px;
+}
+footer .instalar img{
+    margin: 10px 0 15px 0;
+}
+footer .follow i:hover,
+footer  a:hover
+{
+    color:#3ea8f3; 
+}
+footer .copyright{
+   width: 100%;
+   text-align: center;  
+   font-size: 20px;
+}
+
+@media (max-width: 799px) {
+    .section-p1{
+        padding:40px 40px;
+    }
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position:fixed;
+        top: 0;
+        right:-300px;
+        height:100vh;
+        width: 300px;  
+        background-color: #f0efec; 
+        box-shadow: 0 40px 60px rgba(0,0,0,.1); 
+        padding: 80px 0 0 10px;
+        transition: .3s ease;  
+    }
+    #navbar.active{
+        right:0px;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+    }
+    #mobile{
+        display: flex;
+        align-items: center;
+    }
+    #mobile i{
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
+        cursor: pointer;
+    }
+    #close{
+        position: absolute;
+        display: initial;
+        top: 30px;
+        left: 30px;
+        font-size:24px;
+        color: #000; 
+    }
+    #hero{
+        height:70vh;
+        padding: 0 80px;
+        background-position: top 30% right 30%;
+    }
+    #features{
+        text-align: center;
+    }
+    #features .fe-box{
+        margin: 15px 15px;
+    }
+    #destacados .pro-container{
+        justify-content: center;
+       
+    }
+    #destacados .pro{
+        margin: 15px;
+    }
+    #banner{
+        height: 30vh;
+    }
+    #sm-banner .banner-box{
+        min-width: 100%;
+        height: 30vh;
+    }
+    #banner3{
+        padding: 0 40px;
+    }
+    #banner3 .banner-box{
+        min-width: 28%;
+    }
+    #news-letter .form{
+        width: 70%;
+    }
+}
+@media(max-width:477px){
+    .section-p1{
+        padding:20px;
+    }
+    #header{
+        padding:10px 30px;
+    }
+    h1{
+        font-size: 38px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    #hero{
+        padding:0 20px;
+        background-position: 55%;
+    }
+    #features{
+        justify-content:space-between;
+    }
+    #features .fe-box{
+        width:155px;
+        margin: 0 0 15px 0;
+    }
+    #destacados .pro{
+        width: 100%;
+    }
+    #banner{
+        height: 40vh;
+    }
+    #sm-banner .banner-box{
+        height: 40vh;
+    }
+    #sm-banner .banner-box2{
+        margin-top: 20px;
+    }
+    #banner{
+        padding: 0 20px;
+    }
+    #banner3 .banner-box{
+        width: 100%;
+    }
+    #news-letter{
+        padding: 40px 20px;
+    }
+    #news-letter .form{
+        width: 100%;
+    }
+
+    
+  
+}
+
+   
+    

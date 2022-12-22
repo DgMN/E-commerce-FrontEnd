@@ -1,4 +1,6 @@
 colores zocalos #F6F6F6
 		#F2F2F2
 
-colers fondo para letras blancas #1D1D1B 
+colers fondo para letras blancas #f0efec
+colores para letras negras #
+colores verde fluor #11ba68

@@ -663,12 +663,17 @@ footer .copyright{
 #blog .blog-details{
     width: 50%;
 }
+#blog .blog-details h4{
+    color: #33CC99;
+    font-size: 45px;
+   
+}
 #blog .blog-details p{
     color:#212222;
 }
 #blog .blog-details a{
     text-decoration: none;
-    font-size: 11px;
+    font-size: 15px;
     color: #000;
     font-weight: 700;
     position: relative;
@@ -691,14 +696,17 @@ footer .copyright{
 }
 #blog .blog-box h1{
     position: absolute;
-    top:-50px;
+    top:-57px;
     left: 0;
-    font-size: 70px;
+    font-size: 90px;
     font-weight: 700;
-    color:#c6bfbf;
+    color:#c8c1c1;
     z-index: -9;
 }
-
+#page-header h2{
+    font-size:65px;
+    color: #f0efec;
+}
 #page-header.about-header{
     background-image: url('E-commerce/Frentetienda.jpg');
     text-align:end;   
@@ -730,6 +738,7 @@ footer .copyright{
 #about-head img{
     width: 50%;
     height: auto;
+    border-radius: 24px;
 }
 #about-head .video{
     width: 70%;
